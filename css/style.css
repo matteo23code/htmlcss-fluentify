@@ -5,21 +5,22 @@
 }
 
 .container{
-  background: #ccc;
+  background: #666;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
 }
 
 .contain{
-  background: #666;
+  background: #0C325A;
   width: 1000px;
   height: 500px;
   margin: 0 auto
 }
 
 header{
-  background: darkblue;
+  background: url("../img/sfondo.png");
+  background-size: cover;
   color: white;
   width: 100%;
   height: 500px;
@@ -29,39 +30,64 @@ header{
 
 .headbar{
  height: 100%;
- border: 1px solid black;
  padding: 20px 60px;
 }
 
-.left{
-  width: 50%;
+#logo-title{
+  float: left;
+  width: 100px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.center{
   height: 50px;
-  display: inline-block;
-  border: 1px solid grey;
+  float: left;
 }
 
 .right{
-  width: 50%;
   height: 50px;
-  float:right;
-  border: 1px solid grey;
+  float:left;
 }
 
-.menu{
+.menu li{
+  display:inline-block;
+  font-size: 10px;
+  line-height: 50px;
+  padding-left: 15px;
 }
+
+.menu a{
+  width: 30px;
+  text-decoration: none;
+  color: white;
+}
+
 
 .title{
-  background: green;
-  width: 50%;
+  width: 250px;
   height: 100px;
   position: absolute;
   top: 30%;
 }
 
+.piano2{
+  background: #7CBB02;
+  border-style: none;
+  border-radius: 3px;
+  text-align: center;
+  margin-top: 15px;
+  height: 40px;
+  color:#fff;
+  font-size: 10px;
+}
+
 .content{
-  background: grey;
+  background: lightgrey;
   width: 100%;
   height: 100px;
   position: absolute;
   bottom: 0;
+  text-align: center;
+  line-height: 25px;
 }
